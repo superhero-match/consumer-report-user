@@ -1,0 +1,16 @@
+db:
+  host: '192.168.0.64'
+  port: 3306
+  user: 'dev'
+  password: 'password'
+  name: 'report'
+
+consumer:
+  brokers: ['192.168.0.12:9092']
+  topic: 'store.report.report'
+  group_id: 'consumer-report-user'
+
+health:
+  port: ':8280'
+  shutdown_endpoint: '/api/v1/consumer_report_user_health/shutdown'
+  content_type: 'application/json'
