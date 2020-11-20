@@ -2,13 +2,13 @@ db:
   host: '192.168.0.64'
   port: 3306
   user: 'dev'
-  password: 'password'
+  password: 'Awesome85**'
   name: 'report'
 
 consumer:
-  brokers: ['192.168.0.12:9092']
+  brokers: ['192.168.0.64:9092']
   topic: 'store.report.report'
-  group_id: 'consumer-report-user'
+  group_id: 'consumer.report.user'
 
 health:
   port: ':8280'
