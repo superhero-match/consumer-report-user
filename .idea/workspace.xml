@@ -3,26 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="331b0554-4508-4587-9e6e-42a49b84dbdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/consumer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/consumer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/consumer/model/report.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/consumer/model/report.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/consumer/reader/read.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/consumer/reader/read.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/consumer/reader/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/consumer/reader/reader.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/health/controller/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/health/controller/controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/health/controller/health.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/health/controller/health.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/health/controller/shutdown.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/health/controller/shutdown.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/health/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/health/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/config/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/consumer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/config/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/config/health.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/health.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/consumer/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/consumer/consumer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/consumer/model/report.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/consumer/model/report.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/db/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/db/model/report.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/db/model/report.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/db/report.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/db/report.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/health/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/health/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/health/shutdown.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/health/shutdown.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +31,12 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consumer-delete-media" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
