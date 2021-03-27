@@ -20,10 +20,10 @@ RUN go mod download
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-extldflags "-static"' -o main
 
 # Set build as working directory.
-WORKDIR /build/cmd/health
+# WORKDIR /build/cmd/health
 
 # Build the Go app.
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-extldflags "-static"' -o health
+# RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-extldflags "-static"' -o health
 
 # Create unprivelleged user.
 RUN adduser --disabled-login appuser
@@ -43,7 +43,7 @@ RUN mkdir app
 COPY --from=builder /build/cmd/consumer/main /app/
 
 # Copy the pre-built binary file from the previous stage.
-COPY --from=builder /build/cmd/health/health /app/
+# COPY --from=builder /build/cmd/health/health /app/
 
 # Copy the config file from the previous stage.
 COPY ./config.yml /app/
