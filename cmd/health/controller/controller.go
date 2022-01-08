@@ -26,7 +26,7 @@ func NewController() (*Controller, error) {
 	return &Controller{}, nil
 }
 
-// RegisterRoutes registers all the superhero_suggestions API routes.
+// RegisterRoutes registers all the helath API routes.
 func (ctl *Controller) RegisterRoutes() *gin.Engine {
 	router := gin.Default()
 
