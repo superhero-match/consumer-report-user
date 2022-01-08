@@ -1,5 +1,5 @@
 /*
-  Copyright (C) 2019 - 2021 MWSOFT
+  Copyright (C) 2019 - 2022 MWSOFT
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
@@ -19,7 +19,7 @@ import (
 
 // ShutdownHealthServer sends shutdown signal to health server. This shutdown signal is sent only when consumer
 // is panicking and is about to be shutdown to notify loadbalancer that consumer is un-healthy.
-func (c *Client) ShutdownHealthServer () error {
+func (c *Client) ShutdownHealthServer() error {
 	_, err := http.Post(c.HealthServerURL, c.ContentType, nil)
 	if err != nil {
 		return err
