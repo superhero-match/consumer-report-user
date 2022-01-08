@@ -17,8 +17,8 @@ import (
 	"github.com/superhero-match/consumer-report-user/internal/db/model"
 )
 
-// StoreReport report user item.
-func(db *DB) StoreReport (report model.Report) error {
+// StoreReport stores report user item.
+func (db *db) StoreReport(report model.Report) error {
 	_, err := db.stmtStoreReport.Exec(
 		report.ReportingUserID,
 		report.ReportedUserID,
