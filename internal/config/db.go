@@ -15,7 +15,7 @@ package config
 
 // DB holds the configuration values for the database.
 type DB struct {
-	Host     string `env:"DB_HOST" yaml:"host" default:"192.168.0.64"`
+	Host     string `env:"DB_HOST" yaml:"host" default:"192.168.1.229"`
 	Port     int    `env:"DB_PORT" yaml:"port" default:"3306"`
 	User     string `env:"DB_USER" yaml:"user" default:"dev"`
 	Password string `env:"DB_PASSWORD" yaml:"password" default:"Awesome85**"`
